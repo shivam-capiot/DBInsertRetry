@@ -1,0 +1,80 @@
+{
+	"templates": [{
+			"ruleId": "CC_R00001",
+			"smsTemplate": "Thank you for using your HDFC bank Credit card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not done this transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "DC_R00001",
+			"smsTemplate": "Thank you for using your HDFC bank Debit card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> for Rs <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not done this transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "CC_R00002",
+			"smsTemplate": "Thank you for using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> towards ATM WDL in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for ATM withdrawal for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not done this transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "CC_R00003",
+			"smsTemplate": "<%merchantName%> has raised a debit request for Rs. <%custom_transactionAmount%> on <%substring(custom_transactionTime,0,10)%> on your HDFC bank Credit ending <%substring(maskedCardNum,-4)%> towards card validation.",
+			"emailTemplate": "Dear Card Member,\n\nThis is to notify you that <%merchantName%> has raised a debit request for Rs. <%custom_transactionAmount%> on your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%>, to validated your card credentials, at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nIf you have not authorised the above transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "CC_R00004",
+			"smsTemplate": "Your transaction is debited to HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.This is not an authenticated trx as per RBI Mandate effective 1 May 12.",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nPlease note that this transaction was conducted without any additional factor of authentication as mandated by RBI since May 2012.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not authorised the above transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "CC_R00005",
+			"smsTemplate": "Your transaction is debited to HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.This is not an authenticated trx as per RBI Mandate effective 1 May 12.",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nPlease note that this transaction was conducted without any additional factor of authentication as mandated by RBI since May 2012.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not authorised the above transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "DC_R00005",
+			"smsTemplate": "Your transaction is debited to HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.This is not an authenticated trx as per RBI Mandate effective 1 May 12.",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> for Rs <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nPlease note that this transaction was conducted without any additional factor of authentication as mandated by RBI since May 2012.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not authorised the above transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+
+		},
+		{
+			"ruleId": "CC_R00006",
+			"smsTemplate": "Your unsuccessful ATM WDL txn on HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> of Rs. <%custom_transactionAmount%> at <%termCity%> on <%substring(custom_transactionTime,0,10)%> is reversed to A/c. Regret inconvenience",
+			"emailTemplate": "Dear Card Member,\n\nWe note that a cash withdrawal transaction at an ATM was unsucessful for Rs <%custom_transactionAmount%>, when using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nWe have reversed the amount on the credit card and have restored this amount to your Bank account.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you had not authorised the initial transaction attempt, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "DC_R00006",
+			"smsTemplate": "Your unsuccessful ATM WDL txn on HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> of Rs. <%custom_transactionAmount%> at <%termCity%> on <%substring(custom_transactionTime,0,10)%> is reversed to A/c. Regret inconvenience",
+			"emailTemplate": "Dear Card Member,\n\nWe note that a cash withdrawal transaction at an ATM was unsucessful for Rs <%custom_transactionAmount%>, when using your HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> for Rs <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nWe have reversed the amount on the debit card and have restored this amount to your Bank account.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you had not authorised the initial transaction attempt, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "CC_R00007",
+			"smsTemplate": "Your transaction on HDFC Bank Credit card ending <%substring(maskedCardNum,-4)%> of Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> has been cancelled on <%substring(custom_transactionTime,0,10)%>",
+			"emailTemplate": "Dear Card Member,\n\nWe note that a transaction for Rs. <%custom_transactionAmount%>, on your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%> has been reversed.\n\nIf you had not authorised the initial transaction attempt, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "DC_R00007",
+			"smsTemplate": "Your transaction on HDFC Bank Debit card ending <%substring(maskedCardNum,-4)%> of Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> has been cancelled on <%substring(custom_transactionTime,0,10)%>",
+			"emailTemplate": "Dear Card Member,\n\nWe note that a transaction for Rs. <%custom_transactionAmount%>, on your HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%> has been reversed.\n\nIf you had not authorised the initial transaction attempt, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "CC_R00008",
+			"smsTemplate": "Thank you for using your HDFC Credit card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> at <%merchantName%> on <%substring(custom_transactionTime,0,10)%> at <%substring(custom_transactionTime,11,16)%> . Avl bal - Rs. <%computedAvailableBalance%> , Tot outstanding - Rs. <%outstandingAmount%> , Contact - XXXXXXXXX",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for Rs <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nAfter the above transaction, the available balance on your card is Rs. <%computedAvailableBalance%> and the total outstanding is Rs. <%outstandingAmount%>.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not done this transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "CC_R00009",
+			"smsTemplate": "Thank you for using your HDFC Credit card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> towards ATM WDL <%substring(custom_transactionTime,0,10)%> at <%substring(custom_transactionTime,11,16)%> . Avl bal - Rs. <%computedAvailableBalance%> , Tot outstanding - Rs. <%outstandingAmount%> , Contact - XXXXXXXXX",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Credit Card ending <%substring(maskedCardNum,-4)%> for ATM withdrawal for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nAfter the above transaction, the total available balance on your card is Rs. <%computedAvailableBalance%> and the total outstanding is Rs. <%outstandingAmount%>.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not done this transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "DC_R00010",
+			"smsTemplate": "Thank you for using your HDFC Debit card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termNameLocation%> on <%substring(custom_transactionTime,0,10)%> at <%substring(custom_transactionTime,11,16)%> . Avl bal - Rs. <%computedAvailableBalance%> , Tot outstanding - Rs. <%outstandingAmount%> , Contact - XXXXXXXXX",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> in <%termCity%> at <%termLocationName%> on <%substring(custom_transactionTime,0,10)%>.\n\nAfter the above transaction, the available balance on your card is Rs. <%computedAvailableBalance%> and the total outstanding is Rs. <%outstandingAmount%>.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not done this transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		},
+		{
+			"ruleId": "DC_R00011",
+			"smsTemplate": "Thank you for using your HDFC Debit card ending <%substring(maskedCardNum,-4)%> for Rs. <%custom_transactionAmount%> towards ATM WDL <%substring(custom_transactionTime,0,10)%> at <%substring(custom_transactionTime,11,16)%> . Avl bal - Rs. <%computedAvailableBalance%> , Tot outstanding - Rs. <%outstandingAmount%> , Contact - XXXXXXXXX",
+			"emailTemplate": "Dear Card Member,\n\nThank you for using your HDFC Bank Debit Card ending <%substring(maskedCardNum,-4)%> for ATM withdrawal for Rs <%custom_transactionAmount%> in <%termCity%> at <%termNameLocation%> on <%substring(custom_transactionTime,0,10)%>.\n\nAfter the above transaction, the total available balance on your card is Rs. <%computedAvailableBalance%> and the total outstanding is Rs. <%outstandingAmount%>.\n\nFor more details on this transaction please visit Netbanking.\n\nIf you have not done this transaction, please immediately call on 18002586161 to report this transaction.\n\n\nRegards\nHDFC Bank\n\n(This is a system generated mail and should not be replied to)\n"
+		}
+	]
+
+}

@@ -1,0 +1,15 @@
+{	
+	"enableSMS" : false,
+	"enableMail" : true,
+	"serviceConfig" : {
+		"serviceBaseURL" : "https://goldsecsoauat.hdfcbank.com:5142",
+		"serviceTimeoutMillis": 5000,
+		"services" :[{
+			"type" : "SMSService",
+			"serviceURL" : "/SMSProxy/ProxyServices/PS_SMSService",
+			"serviceHttpMethod" : "POST",
+			"reqXMLShell" : "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:sms=\"http://www.hdfcbank.com/SMSService/\"><soapenv:Header/><soapenv:Body><sms:SMSRequest><userid>rtoalrt</userid><password>hEhVn9G4lx</password><ctype>1</ctype><sender>HDFCBK / HDFCBank</sender><mobilenumber/><msgtxt/><departmentcode>RTOALRT</departmentcode><submitdate>2014-05-08 16:22:16</submitdate><author/><subAuthor/><broadcastname/><internationalflag/><msgid/><drlflag/><dndalert/><msgtype/><priority/><filler_1/><filler_2/><filler_3/><filler_4/><filler_5/></sms:SMSRequest></soapenv:Body></soapenv:Envelope>"
+		}]
+	
+	}
+}

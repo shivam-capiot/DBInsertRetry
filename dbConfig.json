@@ -1,0 +1,7 @@
+{
+	"url" : "jdbc:oracle:thin:@10.226.206.164:1522:RTOTXN",
+	"driverClass": "oracle.jdbc.driver.OracleDriver",
+	"schemaName" : "TXN1",
+	"userName" : "TXN1",
+	"password" : "hdfcbank123$",
+}

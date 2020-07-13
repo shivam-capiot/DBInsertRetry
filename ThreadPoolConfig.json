@@ -1,0 +1,6 @@
+{
+	"coreThreads" : 50,
+	"maxThreads" : 60,
+	"keepAliveSeconds" : 60,
+	"queueSize" : 50
+}
